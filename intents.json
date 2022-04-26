@@ -1,0 +1,135 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Apa Kabar ?",
+        "Salam Kenal",
+        "Hello",
+        "Assalamualaikum"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, Terimakasih sudah berkunjung",
+        "Hi , apa yang bisa saya bantu?",
+        "Hi, kamu butuh apa?"
+      ]
+    },
+    {
+      "tag": "jalan",
+      "patterns": ["Mau tanya jalan", "jalan yang aman"],
+      "responses": [
+        "Hi, saat ini kamu berada di daerah mana?"
+      ]
+    },
+    {
+      "tag": "wilayah Jakarta timur",
+      "patterns": ["Jakarta timur","Cakung","Cakung Barat","Cakung Timur","Jatinegara","Penggilingan","Pulo Gebang","Rawa Terate","Ujung Menteng","Senayan"
+      ,"Cipayung","Bambu Apus","Ceger","Cilangkap","Cipayung","Lubang Buaya","Munjul","Pondok Ranggon","Setu"
+      ,"Ciracas","Cibubur","Ciracas","Kelapa Dua Wetan","Rambutan","Susukan"
+      ,"Duren Sawit","Klender","Malaka Jaya","Malaka Sari","Pondok Bambu","Pondok Kelapa","Pondok Kopi"
+      ,"Jati Negara","Bali Mester","Bidara Cina","Cipinang Besar Selatan","Cipinang Besar Utara","Cipinang Cempedak","Cipinang Muara","Kampung Melayu","Rawa Bunga"
+      ,"Kramat Jati","Balekambang","Batu Ampar","Cawang","Cililitan","Dukuh","Kramat Jati Tengah"
+      ,"Kampung Makasar","Cipinang Melayu","Halim Perdana Kusuma","Kebon Pala","Makasar","Pinang Ranti"
+      ,"Matraman","Kayu Manis","Kebon Manggis","Pal Meriam","Pisangan Baru","Utan Kayu Selatan","Utan Kayu Utara"
+      ,"Pasar Rebo","Baru","Cijantung","Gedong","Kalisari","Pekayon"
+      ,"Pulo Gadung","Cipinang","Jati","Jatinegara Kaum","Kayu Putih","Pisangan Timur","Pulo Gadung","Rawamangun"],
+      "responses": [
+        "Jam berapa saat ini di daerah kamu?"
+      ]
+    },
+    {
+      "tag": "tujuan",
+      "patterns": ["jam 9", "jam 10"],
+      "responses": [
+        "dimana alamat rumah kamu?"
+      ]
+    },
+    {
+      "tag": "wilayah tujuan menteng",
+      "patterns": ["Menteng", "Jalan Proklamasi"],
+      "responses": [
+        "Saran saya kamu lewat Jalan Pramuka Raya lurus terus Menuju Matraman , karna jam segini selain jalan itu sangat rawan tindak kejahatan"
+      ]
+    },
+    {
+      "tag": "wilayah tujuan Karte kuningan",
+      "patterns": ["Jalan KH Ilyas 2", "Jalan KH Ilyas II"],
+      "responses": [
+        "Saran saya kamu lewat Jalan Raya Pramuka, karna jam segini selain jalan itu sangat rawan tindak kejahatan"
+      ]
+    },
+    {
+      "tag": "jam",
+      "patterns": ["jam 9 malam", "jam 10 malam"],
+      "responses": [
+        "Saya sarankan kamu lewat jalan jendral sudirman"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
