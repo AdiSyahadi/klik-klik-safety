@@ -7,6 +7,7 @@ Cara Menjalankan Program
 5. Install Flask, Ketikan perintah berikut pada terminal untuk kamu pengguna windows dan juga MacOS ( pip install flask )
 6. Install torch, ketikan perintah berikut untuk kam pengguna windows dan juga MacOS ( pip install Flask torch torchvision nltk )
 7. Install NLTK , ketikan perintah berikut untuk kamu pengguna windows dan juga MacOS, ( pip install nltk )
-8. Ketikan perintah berikut untuk kamu pengguna Windows ( set FLASK_APP=app.py ), ketika perintah berikut untuk kamu pengguna MacOS ( export FLASK_APP=app,py )
+8. cara ke 2 install NLTK jika cara pertama atau cara di nomor 7 tidak berhasil , ketik python pada terminal lalu masukan import nltk tekan enter lalu masukan download,nltk('punkt') lalu tekan enter, kemudian ketikan quit() lalu tekan enter
+9. Ketikan perintah berikut untuk kamu pengguna Windows ( set FLASK_APP=app.py ), ketika perintah berikut untuk kamu pengguna MacOS ( export FLASK_APP=app,py )
 
 SELESAI , semoga bermanfaat yah :)
